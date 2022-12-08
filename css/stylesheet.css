@@ -83,6 +83,7 @@ main:hover {
   }}
 
   .loading span {
+
 	font-size: 58px;
 	color: bisque;
 	animation-name: blink;
