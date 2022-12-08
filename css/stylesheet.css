@@ -39,6 +39,14 @@ main {
 	transition-duration: 2s;
 }
 
+html, body {
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+}
+* {
+	box-sizing: inherit;
+}
 
 main > .intro {
 	font-family: 'Reem Kufi', sans-serif;
