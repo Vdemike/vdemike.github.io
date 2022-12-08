@@ -36,13 +36,13 @@ main {
 	justify-content: center;
 	padding: 0 30px;
 	text-align: center;
-
 	transition-duration: 2s;
 }
 
+
 main > .intro {
 	font-family: 'Reem Kufi', sans-serif;
-	font-size: 34px;
+	font-size: 3.75em;
 	font-weight: 600;
 }
 
@@ -63,4 +63,30 @@ main > .tagline {
 main:hover {
 	background-color: black;
 	color: bisque;
+}
+
+@keyframes blink {
+	0% {
+	opacity: .2;
+  }
+  20% {
+	opacity: 1;
+  }
+  100% {
+	opacity: .2;
+  }}
+
+  .loading span {
+	font-size: 58px;
+	color: bisque;
+	animation-name: blink;
+	animation-duration: 1.4s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: both;
+  }
+  .loading span:nth-child(2) {
+	animation-delay: .2s;
+}
+	.loading span:nth-child(3) {
+	animation-delay: .4s;
 }
