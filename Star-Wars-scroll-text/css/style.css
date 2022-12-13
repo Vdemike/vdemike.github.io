@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+body {
+    background: url(./background.jpg) center no-repeat;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    margin: 50% 0 0 0;
+    position: relative;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(180deg, rgba(20,20,20,1) 40%, rgba(20,20,20,0) 100%);
+  }
+  .intro {
+	position: absolute;
+	bottom: 150%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	color: rgb(75, 213, 238);
+	font-family: "Open Sans", sans-serif;
+	font-weight: 500;
+	font-size: 3.25rem;
+	width: 80%;
+	opacity: 0;
+	animation: intro 6s ease-out 0.5s;
+}
+
+@keyframes intro {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.logo {
+	position: absolute;
+    bottom: 30%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	opacity: 0;
+	animation: logo 10s ease-out 9s;
+}
+
+.logo img {
+	width: inherit;
+}
+
+@keyframes logo {
+	0% {
+		opacity: 1;
+		transform: translate(-50%, -50%) scale(2);
+	}
+	70% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: translate(-50%, -50%) scale(0.1);
+	}
+}
+.wrapper {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    margin: 40 auto;
+    perspective: 450px;
+}
+
+.scroll-text {
+    color: #ffc909;
+    font-size: 3vw;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-align: justify;
+    position: relative;
+    animation: scroll 60s linear forwards;
+    animation-delay: 17s;
+}
+
+h1,h2 {
+    text-align: center;
+    bottom: -25%;
+}
+
+@keyframes scroll {
+    from { top: 0; transform: translateZ(0) rotateX(20deg); }
+    to { top: -7500px; transform: translateZ(-2500px) rotateX(21deg); }
+}
