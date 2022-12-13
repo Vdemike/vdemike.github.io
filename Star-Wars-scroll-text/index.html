@@ -3,10 +3,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./8-2-star-wars-logo-png.png" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>BECODE WARS Scrolling</title>
 </head>
 <body>
+  <section class="intro">
+    A long time ago, in a galaxy far,<br> far away....
+</section>
+<section class="logo">
+    <img src="./becode.png" alt="becode logo">
+</section>
+  <audio src="./Star Wars Intro HD 1080p.mp3" loop="false" hidden="true" autostart="true" id="audio"></audio>></audio>
   <div class="wrapper">
     <div class="scroll-text">
       <h1>BECODE WARS</h1>
@@ -19,5 +26,13 @@
       <p>Ce texte a ete entierement ecrit par une IA</p>
     </div>
   </div>
+  
+  <script type="text/javascript">
+    setTimeout(function(){
+      document.getElementById("audio").play();
+      
+    }, 7500)
+  
+  </script>
 </body>
 </html>
