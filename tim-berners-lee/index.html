@@ -5,12 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Tim Berners Lee</title>
 </head>
 <body>
-    <nav>
-        <img src="./images/Logos-500px-encyclopediaB.png" alt="Logo" class="logo">
-    </nav>
+    <div class="topnav" id="myTopnav">
+        <img src="./images/Logo.jpg" class="logo">
+        <div class="burger">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i></a>
+        <a href="#" class="active">Browse</a>
+        </div>
+        <img src="./images/icons8-magnifying-glass-64.png" class="icon-nav-search">
+        <a href="#" class="search-nav"> Search</a>
+        <a href="#" class="dict-nav">Dictionary</a>
+        <a href="#" class="quiz-nav">Quizzes</a>
+        <button class="Subs"> <b>Subscribe</b></button>
+        <img src="./images/icons8-male-user-50(1).png" class="icon-nav-profile">
+        </a>
+      </div>
     <section class="full">
         <div class="repo">
             <a href="#" target="_blank" rel="noopener noreferrer">Home</a> >
@@ -21,21 +34,22 @@
                 <h1 class="name">Tim Berners-Lee</h1>
             <h3 class="profession">British scientist</h3>
         </div>
+        <div class="btn">
+            <button class="btn-dsn"><img src="./images/imprimante.png" class="icons"> Print</button>
+            <button class="btn-dsn"><img src="./images/corriger.png" class="icons"> Cite</button>
+            <button class="btn-dsn"><img src="./images/partager.png" class="icons"> Share</button>
+            <button class="btn-dsn"><img src="./images/feedback-7.png" class="icons"> Feedback</button>
+            <button class="btn-dsn"><img src="./images/more.png" class="icons"></button>
+        </div>
         <div class="alternate">
             Alternate titles: Sir Tim Berners-Lee
         </div>
-        <div class="Author">By Mike Incourt- Last Updated: Dec. 14, 2022 - Edit History</div>
-        <div class="btn">
-            <button class="btn-dsn">Print</button>
-            <button class="btn-dsn">Cite</button>
-            <button class="btn-dsn">Share</button>
-            <button class="btn-dsn">Feedback</button>
-            <button class="btn-dsn">...</button>
-        </div>
-        <div class="table-content">Table of content</div>
+        <div class="Author">By <a href="#">Mike Incourt</a>- Last Updated: Dec. 14, 2022 - Edit History</div>
+
+        <div class="table-content"><img src="./images/content.png" class="icons">Table of content</div>
         <div class="information">
         <div class="Bio">
-            Tim Berners-Lee, in full Sir Tim Berners-Lee, (born June 8, 1955, London, England), British computer scientist, generally credited as the inventor of the World Wide Web. In 2004 he was awarded a knighthood by Queen Elizabeth II of the United Kingdom and the inaugural Millennium Technology Prize (€1 million) by the Finnish Technology Award Foundation.
+            <b>Tim Berners-Lee</b>, in full Sir <b>Tim Berners-Lee</b>, (born June 8, 1955, <a href="https://fr.wikipedia.org/wiki/Londres">London, </a> England), British computer scientist, generally credited as the inventor of the <a href="https://fr.wikipedia.org/wiki/World_Wide_Web">World Wide Web</a>. In 2004 he was awarded a knighthood by <a href="#">Queen Elizabeth II</a> of the United Kingdom and the inaugural Millennium Technology Prize (€1 million) by the Finnish Technology Award Foundation.
         </div>
         <div class="general-info">
             <div class="img-box">
@@ -43,17 +57,25 @@
             <p class="below-picture">Tim Berners-Lee</p>
             </div>
             <p class="details">
-                <b>Born:</b> June 8, 1955 (age 67) - London - England <br>
-                <b>Founder:</b> World Wide Web Consortium <br>
-                <b>Inventions:</b> World Wide Web - World Wide Web
+                <b>Born:</b> June 8, 1955 (age 67) - <a href="https://fr.wikipedia.org/wiki/Londres">London</a> - England <br>
+                <b>Founder:</b> <a href="https://fr.wikipedia.org/wiki/World_Wide_Web">World Wide Web Consortium</a> <br>
+                <b>Inventions:</b> <a href="https://fr.wikipedia.org/wiki/World_Wide_Web">World Wide Web</a> 
             </p>
             <button class="related-btn">See all related content -></button>
         </div>
         <div class="biocolumn">
-        <div class="Bio">Computing came naturally to Berners-Lee, as both of his parents worked on the Ferranti Mark I, the first commercial computer. (See computer: The first stored-program machines.) After graduating in 1976 from the University of Oxford, Berners-Lee designed computer software for two years at Plessey Telecommunications Ltd., located in Poole, Dorset, England. Following this, he had several positions in the computer industry, including a stint from June to December 1980 as a software engineering consultant at CERN, the European particle physics laboratory in Geneva.</div>
+        <div class="Bio">Computing came naturally to Berners-Lee, as both of his parents worked on the <a href="#">Ferranti Mark I</a>, the first commercial computer. (See computer: <a href="#">first stored-program machines</a>.) After graduating in 1976 from <a href="#">the University of  Oxford </a>, Berners-Lee designed computer <a href="#">software</a> for two years at Plessey Telecommunications Ltd., located in <a href="#">Poole</a>, Dorset, <a href="#">England</a>. Following this, he had several positions in the computer industry, including a stint from June to December 1980 as a software engineering consultant at CERN, the European particle physics laboratory in Geneva.</div>
         </div>
         </div>
     </section>
-
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }</script>
 </body>
 </html>
