@@ -88,6 +88,16 @@ a {
     font-weight: 200;
 }
 
+.all-media {
+    height: 50px;
+    width: 80%;
+    font-size: 14px;
+    color: rgb(35, 68, 177);
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid rgb(199, 195, 195);
+}
 
 .general-info {
     display: flex;
