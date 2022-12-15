@@ -30,7 +30,7 @@ body {
   .icon-nav {
     height: 30px;
     color: azure;
-    padding-right: 5px;
+    padding-right:5px;
   }
 
 .btn {
@@ -138,7 +138,6 @@ a {
 
 .topnav {
     align-items: center;
-    justify-content: space-between;
     width: 100%;
     display: grid;
     grid-template-areas: 
@@ -166,6 +165,7 @@ a {
     color: white;
     height: 30px;
     border-radius: 15%;
+    margin-right: 15px;
     border: 1px solid black;
 }
 
@@ -176,7 +176,7 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-    
+
     .information {
         display: grid;
         width: 100%;
@@ -241,13 +241,18 @@ a {
     body {
         overflow-x: hidden;
     }
+
+    .topnav {
+        display: flex;
+    }
     
     .search {
         display: flex;
 
     }
-    .burger {
-        display: flex;
+ 
+    .Subs {
+        text-align: right;
     }
     .information {
         margin-top: 25px;
@@ -268,7 +273,7 @@ a {
     }
 
     .full {
-        width: 90%;
+        width: 80%;
         border: 1px solid rgb(223, 219, 219);
         padding: 15px;
     }
@@ -302,9 +307,6 @@ a {
         display: none;
     }
 
-    .topnav {
-        display: flex;
-    }
     .logo {
         margin-left: 15px;
     }
