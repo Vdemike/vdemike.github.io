@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Chez Michelangelo</title>
+</head>
+<body>
+
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+        <a class="navbar-brand" href="./index.html">
+            <img src="./images/logo.png" style="height: 50px;" alt="logo" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link h1-font" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h1-font" href="./restaurant.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h1-font" href="./menu.html">Menu</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link h1-font" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+    <a href="./booking.html" class="btn btn-warning">Book A Table</a>
+    </div>
+      </nav>
+      <h1>Ghost Element</h1>
+
+    <!-- Menu section -->
+    <section id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="intro-text col-12 mb-4 mt-5 text-center text-white">
+                    <h1 class="h1-font">Taste the <span class="text-warning">difference</span></h1>
+                    <p>Discover our delicious menu here and don't hesitate to try our delicacies</p>
+                </div>
+            </div>
+        </div>
+      </section>
+    
+    <div class="container">
+      <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-white active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All dishes</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link btn btn-secondary text-white" id="pills-pasta-tab" data-bs-toggle="pill" data-bs-target="#pills-pasta" type="button" role="tab" aria-controls="pills-pasta" aria-selected="false">Pasta</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-white" id="pills-pizza-tab" data-bs-toggle="pill" data-bs-target="#pills-pizza" type="button" role="tab" aria-controls="pills-pizza" aria-selected="false">Pizza</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link text-white" id="pills-meat-tab" data-bs-toggle="pill" data-bs-target="#pills-meat" type="button" role="tab" aria-controls="pills-meat" aria-selected="false">Meat dishes</button>
+          </li>
+      </ul>
+    
+<!-- All dishes -->
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-all" role="tabpanel">
+            <h1 class="text-warning mb-5 h1-font">All Dishes</h1>
+            <div class="container-fluid">
+              <div class="row g-4">
+                <!-- Pastas all list -->
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/pasta espinaca.jpg"  class="card-img-top "  alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pasta Espinaca</h5>
+                      <p class="small">Delicious pasta with tender lamb meat and a creamy mushroom sauce decorated with spinach leaves</p>
+                      <h5 class="mt-1 mb-2">€25</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Pasta al Raggu.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pasta Al Raggu</h5>
+                      <p class="small">Rich and flavorful meat-based sauce, served over pasta in a sauce of herbs, carrots, tomatoes and onions.</p>
+                      <h5 class="mt-1 mb-2">€26</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/My-Familys-Favorite-Pesto-Pasta-Bolognese-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pasta Bolognese</h5>
+                      <p class="small">Pasta Bolognese is a classic Italian dish made with ground beef, tomatoes and onions. This is a staple delicious dinner recipe that is such a crowd pleaser.</p>
+                      <h5 class="mt-1 mb-2">€21</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Pasta Carbonara.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pasta Carbonara</h5>
+                      <p class="small">Carbonara is an Italian pasta dish from Rome made with eggs, hard cheese, cured pork and black pepper.</p>
+                      <h5 class="mt-1 mb-2">€18</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Pasta mejillones.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pasta Mejillones</h5>
+                      <p class="small">Pasta with mussels and tomatoes is a traditional Italian seafood pasta recipe from the Campani region. Spaghetti is a classic pasta selection for this seafood pasta sauce.</p>
+                      <h5 class="mt-1 mb-2">€35</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Pasta Penne.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Penne Rigate</h5>
+                      <p class="small">Although it is very simple, this classic tomato sauce reduces down to a very fresh concentrated tomato flavour, one of the best sauces ever invented.</p>
+                      <h5 class="mt-1 mb-2">€20</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <!-- Pizzas All List -->
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Pizza Verde.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pizza Verde</h5>
+                      <p class="small">This vegetarian pizza recipe will delight vegetarians and carnivores alike. It’s fresh and full of flavor, featuring cherry tomatoes, artichoke, bell pepper, olives, red onion and some baby spinach. You’ll find a base of rich tomato sauce and golden, bubbling mozzarella underneath, of course</p>
+                      <h5 class="mt-1 mb-2">€25</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>           
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Pizza Meat Lovers.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pizza Meat Lovers</h5>
+                      <p class="small">Homemade thin crust pizza, topped off with cheese, bacon, ham, pepperoni, hot sausage and meatballs. A must for meat lovers!</p>
+                      <h5 class="mt-1 mb-2">€26</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>           
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Pizza Hawai.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pizza Hawaii</h5>
+                      <p class="small">Hawaiian pizza is a pizza originating in Canada, and is traditionally topped with pineapple, tomato sauce, cheese, and either ham or bacon.</p>
+                      <h5 class="mt-1 mb-2">€20</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/foad-roshan-WwjseJMNfjk-unsplash.jpg" class="card-img-top img-fluid"  alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pizza Pepperoni</h5>
+                      <p class="small">Pepperoni pizza is an American pizza variety which includes one of the country's most beloved toppings. Pepperoni, which denotes a large pepper in Italian, but nowadays it denotes a spicy salami, usually made with a mixture of beef, pork, and spices.</p>
+                      <h5 class="mt-1 mb-2">€26</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Pizza Navidad.avif" class="card-img-top img-fluid"  alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pizza Napoletana</h5>
+                      <p class="small">Neapolitan pizza (Italian: pizza napoletana), also known as Naples-style pizza, is a style of pizza made with tomatoes and mozzarella cheese.</p>
+                      <h5 class="mt-1 mb-2">€26</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Quattro-Formaggi-1200px-Inside-the-Rustic-Kitchen-2.jpg" class="card-img-top img-fluid"  alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pizza Cuattro Formaggi</h5>
+                      <p class="small">Pizza quattro formaggi is a variety of pizza in Italian cuisine that is topped with a combination of four kinds of cheese, usually melted together, with tomato sauce. It is popular worldwide, including in Italy, and is one of the iconic items from our menus.</p>
+                      <h5 class="mt-1 mb-2">€22</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/margarita.jpg" class="card-img-top img-fluid"  alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pizza Margherita</h5>
+                      <p class="small">Pizza Margherita is a typical Neapolitan pizza, made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt, and extra-virgin olive oil.</p>
+                      <h5 class="mt-1 mb-2">€19</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <!-- Meat Dishes-->
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Porchetta-di-Ariccia.jpeg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Porchetta di Ariccia</h5>
+                      <p class="small">This is a simple pork roast which has become a prized culinary symbol of the Lazio region thanks to its particularly flavorful stuffing made with fennel, rosemary, and garlic.</p>
+                      <h5 class="mt-1 mb-2">€28</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>           
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Arista.jpeg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Arista</h5>
+                      <p class="small">Arista is one of the most loved Italian meats, originally from Tuscany, and consists of lean pork loin seasoned in finely chopped rosemary, extra-virgin olive oil, garlic, salt, and pepper, tied with twine and then roasted for a few hours.</p>
+                      <h5 class="mt-1 mb-2">€26</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>           
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Bistecca-alla-Fiorentina.jpeg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Bistecca alla Fiorentina</h5>
+                      <p class="small">The great Florentine Steak. This is a T-bone steak from a young steer, typically Chianina cattle, a typical Tuscan breed from the hills around Florence.</p>
+                      <h5 class="mt-1 mb-2">€35</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Peposo.jpeg.webp" class="card-img-top img-fluid"  alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Peposo</h5>
+                      <p class="small">A symbol of Florentine cucina povera, this humble Tuscan meat stew was in fact traditionally made with the leftover and unused parts of beef, slow-cooked in Chianti, with the addition of the typical soffritto (diced onions, celery, and carrots), garlic, fresh herbs and a large amount of crushed black peppercorns.</p>
+                      <h5 class="mt-1 mb-2">€35</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Cotoletta-alla-Milanese.jpeg.webp" class="card-img-top img-fluid"  alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Cotoletta alla Milanese</h5>
+                      <p class="small">This signature dish from Milan is nothing more than breaded tender veal deep fried in butter.</p>
+                      <h5 class="mt-1 mb-2">€26</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Ossobuco.jpeg.webp" class="card-img-top img-fluid"  alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Ossobuco</h5>
+                      <p class="small">These cross-cut veal shanks braised in vegetables, broth, and white wine are a culinary specialty of the Lombardy region. Served on a bed of saffron risotto alla Milanese or creamy polenta.</p>
+                      <h5 class="mt-1 mb-2">€32</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+          </div>
+          </div>
+          </div>
+        
+          <!--Pasta -->
+
+        <div class="tab-pane fade" id="pills-pasta" role="tabpanel">
+            <h1 class="text-warning mb-5 h1-font">Pasta</h1>
+            <div class="container-fluid">
+              <div class="row g-4">
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/pasta espinaca.jpg"  class="card-img-top "  alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pasta Espinaca</h5>
+                      <p class="small">Delicious pasta with tender lamb meat and a creamy mushroom sauce decorated with spinach leaves</p>
+                      <h5 class="mt-1 mb-2">€25</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Pasta al Raggu.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pasta Al Raggu</h5>
+                      <p class="small">Rich and flavorful meat-based sauce, served over pasta in a sauce of herbs, carrots, tomatoes and onions.</p>
+                      <h5 class="mt-1 mb-2">€26</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/My-Familys-Favorite-Pesto-Pasta-Bolognese-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pasta Bolognese</h5>
+                      <p class="small">Pasta Bolognese is a classic Italian dish made with ground beef, tomatoes and onions. This is a staple delicious dinner recipe that is such a crowd pleaser.</p>
+                      <h5 class="mt-1 mb-2">€21</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Pasta Carbonara.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pasta Carbonara</h5>
+                      <p class="small">Carbonara is an Italian pasta dish from Rome made with eggs, hard cheese, cured pork and black pepper.</p>
+                      <h5 class="mt-1 mb-2">€18</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Pasta mejillones.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Pasta Mejillones</h5>
+                      <p class="small">Pasta with mussels and tomatoes is a traditional Italian seafood pasta recipe from the Campani region. Spaghetti is a classic pasta selection for this seafood pasta sauce.</p>
+                      <h5 class="mt-1 mb-2">€35</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Pasta Penne.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Penne Rigate</h5>
+                      <p class="small">Although it is very simple, this classic tomato sauce reduces down to a very fresh concentrated tomato flavour, one of the best sauces ever invented.</p>
+                      <h5 class="mt-1 mb-2">€20</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      
+      <!-- Pizzas -->
+      <div class="tab-pane fade" id="pills-pizza" role="tabpanel">
+        <h1 class="text-warning mb-5 h1-font">Pizzas</h1>
+        <div class="container-fluid">
+          <div class="row g-4">
+          <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+            <img src="./images/Pizza Verde.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">
+                <div class="menu-item-content">
+                  <div>
+                    <span>Rated 4.5</span>
+                    <span>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                    </span>
+                    
+                  </div>
+                  <h5 class="mt-1 mb-2">Pizza Verde</h5>
+                  <p class="small">This vegetarian pizza recipe will delight vegetarians and carnivores alike. It’s fresh and full of flavor, featuring cherry tomatoes, artichoke, bell pepper, olives, red onion and some baby spinach. You’ll find a base of rich tomato sauce and golden, bubbling mozzarella underneath, of course</p>
+                  <h5 class="mt-1 mb-2">€25</h5>
+                </div>
+              </p>
+            </div>
+          </div>           
+          <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+            <img src="./images/Pizza Meat Lovers.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">
+                <div class="menu-item-content">
+                  <div>
+                    <span>Rated 4.5</span>
+                    <span>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                    </span>
+                    
+                  </div>
+                  <h5 class="mt-1 mb-2">Pizza Meat Lovers</h5>
+                  <p class="small">Homemade thin crust pizza, topped off with cheese, bacon, ham, pepperoni, hot sausage and meatballs. A must for meat lovers!</p>
+                  <h5 class="mt-1 mb-2">€26</h5>
+                </div>
+              </p>
+            </div>
+          </div>           
+          <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+            <img src="./images/Pizza Hawai.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">
+                <div class="menu-item-content">
+                  <div>
+                    <span>Rated 4.5</span>
+                    <span>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                    </span>
+                    
+                  </div>
+                  <h5 class="mt-1 mb-2">Pizza Hawaii</h5>
+                  <p class="small">Hawaiian pizza is a pizza originating in Canada, and is traditionally topped with pineapple, tomato sauce, cheese, and either ham or bacon.</p>
+                  <h5 class="mt-1 mb-2">€20</h5>
+                </div>
+              </p>
+            </div>
+          </div>
+          <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+            <img src="./images/foad-roshan-WwjseJMNfjk-unsplash.jpg" class="card-img-top img-fluid"  alt="...">
+            <div class="card-body">
+              <p class="card-text">
+                <div class="menu-item-content">
+                  <div>
+                    <span>Rated 4.5</span>
+                    <span>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                    </span>
+                    
+                  </div>
+                  <h5 class="mt-1 mb-2">Pizza Pepperoni</h5>
+                  <p class="small">Pepperoni pizza is an American pizza variety which includes one of the country's most beloved toppings. Pepperoni, which denotes a large pepper in Italian, but nowadays it denotes a spicy salami, usually made with a mixture of beef, pork, and spices.</p>
+                  <h5 class="mt-1 mb-2">€26</h5>
+                </div>
+              </p>
+            </div>
+          </div>
+          <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+            <img src="./images/Pizza Navidad.avif" class="card-img-top img-fluid"  alt="...">
+            <div class="card-body">
+              <p class="card-text">
+                <div class="menu-item-content">
+                  <div>
+                    <span>Rated 4.5</span>
+                    <span>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                    </span>
+                    
+                  </div>
+                  <h5 class="mt-1 mb-2">Pizza Napoletana</h5>
+                  <p class="small">Neapolitan pizza (Italian: pizza napoletana), also known as Naples-style pizza, is a style of pizza made with tomatoes and mozzarella cheese.</p>
+                  <h5 class="mt-1 mb-2">€26</h5>
+                </div>
+              </p>
+            </div>
+          </div>
+          <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+            <img src="./images/Quattro-Formaggi-1200px-Inside-the-Rustic-Kitchen-2.jpg" class="card-img-top img-fluid"  alt="...">
+            <div class="card-body">
+              <p class="card-text">
+                <div class="menu-item-content">
+                  <div>
+                    <span>Rated 4.5</span>
+                    <span>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                    </span>
+                    
+                  </div>
+                  <h5 class="mt-1 mb-2">Pizza Cuattro Formaggi</h5>
+                  <p class="small">Pizza quattro formaggi is a variety of pizza in Italian cuisine that is topped with a combination of four kinds of cheese, usually melted together, with tomato sauce. It is popular worldwide, including in Italy, and is one of the iconic items from our menus.</p>
+                  <h5 class="mt-1 mb-2">€22</h5>
+                </div>
+              </p>
+            </div>
+          </div>
+          <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+            <img src="./images/margarita.jpg" class="card-img-top img-fluid"  alt="...">
+            <div class="card-body">
+              <p class="card-text">
+                <div class="menu-item-content">
+                  <div>
+                    <span>Rated 4.5</span>
+                    <span>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                    </span>
+                    
+                  </div>
+                  <h5 class="mt-1 mb-2">Pizza Margherita</h5>
+                  <p class="small">Pizza Margherita is a typical Neapolitan pizza, made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt, and extra-virgin olive oil.</p>
+                  <h5 class="mt-1 mb-2">€19</h5>
+                </div>
+              </p>
+            </div>
+          </div>
+      </div>
+      </div>
+      </div>
+
+        <!-- Meat Dishes -->
+        
+        <div class="tab-pane fade" id="pills-meat" role="tabpanel">
+          <h1 class="text-warning mb-5 h1-font">Meat Dishes</h1>
+          <div class="container-fluid">
+            <div class="row g-4">
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Porchetta-di-Ariccia.jpeg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Porchetta di Ariccia</h5>
+                      <p class="small">This is a simple pork roast which has become a prized culinary symbol of the Lazio region thanks to its particularly flavorful stuffing made with fennel, rosemary, and garlic.</p>
+                      <h5 class="mt-1 mb-2">€28</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>           
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Arista.jpeg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Arista</h5>
+                      <p class="small">Arista is one of the most loved Italian meats, originally from Tuscany, and consists of lean pork loin seasoned in finely chopped rosemary, extra-virgin olive oil, garlic, salt, and pepper, tied with twine and then roasted for a few hours.</p>
+                      <h5 class="mt-1 mb-2">€26</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>           
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Bistecca-alla-Fiorentina.jpeg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Bistecca alla Fiorentina</h5>
+                      <p class="small">The great Florentine Steak. This is a T-bone steak from a young steer, typically Chianina cattle, a typical Tuscan breed from the hills around Florence.</p>
+                      <h5 class="mt-1 mb-2">€35</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Peposo.jpeg.webp" class="card-img-top img-fluid"  alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Peposo</h5>
+                      <p class="small">A symbol of Florentine cucina povera, this humble Tuscan meat stew was in fact traditionally made with the leftover and unused parts of beef, slow-cooked in Chianti, with the addition of the typical soffritto (diced onions, celery, and carrots), garlic, fresh herbs and a large amount of crushed black peppercorns.</p>
+                      <h5 class="mt-1 mb-2">€35</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Cotoletta-alla-Milanese.jpeg.webp" class="card-img-top img-fluid"  alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Cotoletta alla Milanese</h5>
+                      <p class="small">This signature dish from Milan is nothing more than breaded tender veal deep fried in butter.</p>
+                      <h5 class="mt-1 mb-2">€26</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="card m-2 col-lg-3 px-0 col-md-5 col-sm-10">
+                <img src="./images/Ossobuco.jpeg.webp" class="card-img-top img-fluid"  alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="menu-item-content">
+                      <div>
+                        <span>Rated 4.5</span>
+                        <span>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        
+                      </div>
+                      <h5 class="mt-1 mb-2">Ossobuco</h5>
+                      <p class="small">These cross-cut veal shanks braised in vegetables, broth, and white wine are a culinary specialty of the Lombardy region. Served on a bed of saffron risotto alla Milanese or creamy polenta.</p>
+                      <h5 class="mt-1 mb-2">€32</h5>
+                    </div>
+                  </p>
+                </div>
+              </div>
+        </div>
+        </div>
+        </div>
+    
+        
+      </div>
+    </div>
+      <!-- Footer Start -->
+      <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4 h1-font">Company</h4>
+                    <a class="btn btn-link text-warning" href="./restaurant.html">About Us</a>
+                    <a class="btn btn-link text-warning" href="./contact.html">Contact Us</a>
+                    <a class="btn btn-link text-warning" href="./booking.html">Reservation</a>
+                    <a class="btn btn-link text-warning" href="">Privacy Policy</a>
+                    <a class="btn btn-link text-warning" href="">Terms & Condition</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4 h1-font">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Place de Brouqueres 25, 1000 Brussels, BE</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+015/45 69.89</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>Booking@chezmichelangelo.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4 h1-font">Opening</h4>
+                    <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                    <p>09:00 - 21:00</p>
+                    <h5 class="text-light fw-normal">Sunday</h5>
+                    <p>15:00 - 23:00</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4 h1-font">Newsletter</h4>
+                    <p>Sign Up here to receive our latest news and promos</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-warning w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-warning py-2 position-absolute top-0 end-0 mt-2 me-2">Join us!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom text-warning" href="#">Chez Michelangelo 2022</a> | Copyright. 
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="./index.html">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="./contact.html">Help</a>
+                            <a href="./contact.html">FAQ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->   
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 
+</body>
+</html>
+  
+  

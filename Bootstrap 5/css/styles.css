@@ -1,0 +1,27 @@
+.slide-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/amirali-mirhashemian-v2z6Yhp_6Gc-unsplash.jpg");
+background-size: cover;
+}
+
+.slide-2 {
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/ivan-torres-MQUqbmszGGM-unsplash.jpg");
+background-size: cover;
+}
+
+.navbar-nav {
+    font-size: 20px; 
+}
+
+.intro-text {
+    margin-bottom: 25px;
+}
+
+body {     
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/amirali-mirhashemian-v2z6Yhp_6Gc-unsplash.jpg");
+    background-size: cover;
+    
+}
+
+.h1-font {
+    font-family: 'Lobster', sans-serif;
+}
