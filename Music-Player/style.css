@@ -5,7 +5,8 @@ body {
     }
     
     .player{
-      height: 95vh;
+      width: 95%;
+      height: 95%;
       overflow: hidden;
       display: flex;
       align-items: center;
