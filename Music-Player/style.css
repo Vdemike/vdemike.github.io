@@ -14,6 +14,9 @@ body {
       flex-direction: column;
       justify-content: center;
   }
+  .track-name {
+    font-size: 2rem;
+  }
     .wrapper{
       border: 1px solid transparent;
       padding: 30px;
