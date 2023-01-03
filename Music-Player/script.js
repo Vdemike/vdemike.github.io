@@ -109,7 +109,7 @@ const music_list = [
         img : 'images/Vetusta.jpg',
         name : 'Copenhague',
         artist : 'Vetusta Morla',
-        music : 'music/Sebastian.mp3'
+        music : 'music/Vetusta.mp3'
     },
     {
         img : 'images/soda.jpg',
@@ -146,6 +146,12 @@ const music_list = [
         name : 'El poeta Halley',
         artist : 'Love of Lesbian',
         music : 'music/lesbian.mp3'
+    },
+    {
+        img : 'images/Umberto.jpg',
+        name : 'Ti Amo',
+        artist : 'Umberto Tozzi',
+        music : 'music/Umberto.mp3'
     },
 ];
 
