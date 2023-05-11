@@ -2,15 +2,19 @@
   "name": "WATCHMI-v2",
   "version": "0.0.1",
   "license": "MIT",
-  "author": "Julius Guevarra",
+  "homepage": "https://vdemike.github.io/WatchMi/",
+  "author": "Mike Incourt",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && cd dist && cp index.html 200.html",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@types/webfontloader": "^1.6.32",
     "axios": "^0.21.1",
+    "gh-pages": "^5.0.0",
     "history": "4.10.0",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
